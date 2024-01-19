@@ -1,0 +1,29 @@
+{
+  "name": "electron-test",
+  "productName": "GitOps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "npx electronmon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PurinduWeerawardana/electron-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PurinduWeerawardana/electron-test/issues"
+  },
+  "homepage": "https://github.com/PurinduWeerawardana/electron-test#readme",
+  "dependencies": {
+    "electron": "^28.1.4",
+    "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
